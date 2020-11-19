@@ -1,4 +1,6 @@
 """ Задан массив D(10). Найти максимальный и минимальный элементы массива D и поменять их местами """
+# TODO - не трогать! ПОКА НЕ РАБОТАТЕТ!
+
 
 massive = [-1, 2, 3, 9, 4, 5, 7, 2, 0, 7]
 massive2 = []
@@ -13,9 +15,10 @@ for element in massive:
         min_element = element
         massive2.append(element)
 
+max_element = min_element
+min_element = max_element
 
 for i in enumerate(massive):
     print(i)
 
-massive2.append(massive)
 print(massive2)
